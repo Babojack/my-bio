@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useEffect, useState } from "react";
 import {
   faAngular,
   faCss3,
@@ -6,20 +6,20 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-} from '@fortawesome/free-brands-svg-icons'
-import Loader from 'react-loaders'
-import AnimatedLetters from '../AnimatedLetters'
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import './index.scss'
+} from "@fortawesome/free-brands-svg-icons";
+import Loader from "react-loaders";
+import AnimatedLetters from "../AnimatedLetters";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import "./index.scss";
 
 const About = () => {
-  const [letterClass, setLetterClass] = useState('text-animate')
+  const [letterClass, setLetterClass] = useState("text-animate");
 
   useEffect(() => {
     return setTimeout(() => {
-      setLetterClass('text-animate-hover')
-    }, 3000)
-  }, [])
+      setLetterClass("text-animate-hover");
+    }, 3000);
+  }, []);
 
   return (
     <>
@@ -28,7 +28,7 @@ const About = () => {
           <h1>
             <AnimatedLetters
               letterClass={letterClass}
-              strArray={['A', 'b', 'o', 'u', 't', ' ', 'm', 'e']}
+              strArray={["A", "b", "o", "u", "t", " ", "m", "e"]}
               idx={15}
             />
           </h1>
@@ -45,6 +45,15 @@ const About = () => {
             If I need to define myself in one sentence that would be a family
             person, father of a beautiful daughter, a sports fanatic,
             photography enthusiast, and tech-obsessed!!!
+          <p>
+            Short Story how i got to germany: There are changes in life that can open up for you new
+            unexplored paths. The only question is, do you dare to follow one of
+            them? In 2009 my father sent me on a special secret mission to
+            Germany. I was told that this was a secret mission for the benefit
+            of our country. My mission was to study and find a job. Now I
+            realized that this was not a mission, just my parents wanted my room
+            to make a yoga hall out of it.
+          </p>
           </p>
         </div>
 
@@ -73,7 +82,7 @@ const About = () => {
       </div>
       <Loader type="pacman" />
     </>
-  )
-}
+  );
+};
 
-export default About
+export default About;
