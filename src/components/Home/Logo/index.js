@@ -4,6 +4,7 @@ import DrawSVGPlugin from "gsap-trial/DrawSVGPlugin";
 import LogoS from "../../../assets/images/me.png";
 import "./index.scss";
 
+
 const Logo = () => {
   const bgRef = useRef();
   const outlineLogoRef = useRef();
@@ -56,10 +57,10 @@ const Logo = () => {
         />
       </g>
       <div className="quotes">
-      <h2>
+      <h2 class="">
         "There are changes in life that can open up for you new unexplored
         paths. The only question is, do you dare to follow one of them?"
-        <p><small>J.M.Afandiyev</small></p>
+        <p class="tags top-tags"><small>J.M.Afandiyev</small></p>
       </h2>
       </div>
     </div>
