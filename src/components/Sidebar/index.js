@@ -1,12 +1,10 @@
 import './index.scss'
-import LogoS from '../../assets/images/logo-s.png'
+import LogoS from '../../assets/images/logo-j.png'
 import LogoSubtitle from '../../assets/images/logo_sub.png'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {
   faLinkedin,
   faGithub,
-  faYoutube,
-  faSkype,
 } from '@fortawesome/free-brands-svg-icons'
 import { faHome, faUser, faEnvelope } from '@fortawesome/free-solid-svg-icons'
 import { Link, NavLink } from 'react-router-dom'
@@ -16,7 +14,7 @@ const Sidebar = () => {
     <div className="nav-bar">
       <Link className="logo" to="/">
         <img src={LogoS} alt="Logo" />
-        <img className="sub-logo" src={LogoSubtitle} alt="slobodan" />
+        <img className="sub-logo" src={LogoSubtitle} alt="jey" />
       </Link>
       <nav>
         <NavLink exact="true" activeclassname="active" to="/">
@@ -45,25 +43,11 @@ const Sidebar = () => {
         </li>
         <li>
           <a
-            href="https://github.com/bobangajicsm"
+            href="https://github.com/Babojack"
             target="_blank"
             rel="noreferrer"
           >
             <FontAwesomeIcon icon={faGithub} color="#4d4d4e" />
-          </a>
-        </li>
-        <li>
-          <a
-            href="https://www.youtube.com/channel/UCBu5ulO4d-d47lAVybpRTkw"
-            rel="noreferrer"
-            target="_blank"
-          >
-            <FontAwesomeIcon icon={faYoutube} color="#4d4d4e" />
-          </a>
-        </li>
-        <li>
-          <a href="skype:live:bobangajicsm" rel="noreferrer" target="_blank">
-            <FontAwesomeIcon icon={faSkype} color="#4d4d4e" />
           </a>
         </li>
       </ul>
