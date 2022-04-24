@@ -34,7 +34,7 @@ const Sidebar = () => {
       <ul>
         <li>
           <a
-            href="https://www.linkedin.com/in/slobodan-gaji%C4%87-006bb8b8/"
+            href="https://www.linkedin.com/in/jeyhun-m-afandiyev-28178b230/"
             target="_blank"
             rel="noreferrer"
           >
