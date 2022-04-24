@@ -1,6 +1,6 @@
 # Since i was not able to deploy this repo on firebase (cause of GSAP Library restrictions), i converted mov- file into the gif-format to show you this beautiful reacte based website :) Enjoy it!
 
-![Alt text](bio-demo.gif)
+![Alt text](my-bio.gif)
 
 # Getting Started with Create React App (rec)
 
