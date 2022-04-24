@@ -6,7 +6,7 @@ import {
   faHtml5,
   faJsSquare,
   faReact,
-  
+
 } from "@fortawesome/free-brands-svg-icons";
 import Loader from "react-loaders";
 import AnimatedLetters from "../AnimatedLetters";
@@ -44,7 +44,7 @@ const About = () => {
           </p>
           <p>
             If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
+            person, a sports fanatic,
             photography enthusiast, and tech-obsessed!!!
           <p>
             Short Story how i got to germany: There are changes in life that can open up for you new
